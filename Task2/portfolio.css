@@ -1,0 +1,60 @@
+#section1
+	{
+		display:flex;
+		justify-content: space-between;
+    
+
+	}
+	.nav
+	{
+		font-size:40px;
+		padding: 17px;
+		color:orange;
+	}
+    .menu ul
+    {
+    	display:flex;
+    }
+    .menu ul li
+    {
+    	list-style: none;
+    	padding:17px;
+    	
+    }
+    .menu li a
+    {
+    	text-decoration: none;
+    	font-size: 25px;
+    	color:gold;
+    }
+    img.background
+   {
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index: -1;
+  height:290%;
+  width: 100%;
+  -webkitfilter:blur(5px);
+  filter: blur(5px);
+  background-size: cover;
+}
+
+
+#section2 span
+{
+  padding-top: 50%;
+  font-size:30px;
+
+}
+#section2 a
+{
+  font-size:25px;
+  text-decoration: none;
+}
+#section6 a
+{
+  size:20px;
+  text-decoration: none;
+  color:inherit;
+}

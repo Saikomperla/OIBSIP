@@ -1,0 +1,99 @@
+ *{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.nav
+{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ letter-spacing:5px;
+ color:black;
+}
+.logo
+{
+  color:yellow;
+  font-size: 70px;
+  margin-top:30px;
+  margin-left:50px;
+  font-family: 'Tangerine', cursive;
+}
+.menu ul
+{
+  display: flex;
+}
+.menu li
+{
+  list-style: none;
+}
+.menu li a
+{
+  
+  text-decoration: none;
+  color:gold;
+  padding: 16px;
+  display: block;
+  font-size: 30px;
+}
+.menu li:hover
+{
+  background-color:gray;
+}
+.login
+{
+  border:2px solid black;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  font-size: 17px;
+}
+.login h1
+{
+  font-size: 40px;
+  font-style: oblique;
+}
+.sub
+{
+  margin-right:30px;
+}
+img.background
+{
+  position: absolute;
+  left:0px;
+  top:0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  -webkit-filter:blur(5px);
+  filter: blur(5px);
+  background-size: cover;
+}
+input[type="text"]::placeholder
+{
+  font-size: 15px;
+  text-align: center;
+}
+input[type="email"]::placeholder
+{
+  font-size: 15px;
+  text-align: center;
+}
+input[type="password"]::placeholder
+{
+  font-size: 15px;
+  text-align: center;
+}
+input[type="submit"]
+{
+  font-size: 15px;
+}
+input[type="reset"]
+{
+  font-size: 15px;
+}
+.login
+{
+  background-color: white;
+}

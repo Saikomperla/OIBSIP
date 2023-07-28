@@ -1,0 +1,46 @@
+<html>
+<center>
+</head>
+<title>Temperature Convertor</title>
+<style>
+FORM
+{
+ border:5px black solid;
+ background-color:white;
+ WIDTH:300PX;
+ PADDING:20PX;
+MARGIN:20PX;
+}
+</style>
+<script>
+var c=document.getElementById("c1").value;
+function fahre()
+ {
+   var c=document.getElementById("c1").value;
+   var f=(c*9/5)+32+"F";
+   document.getElementById("result").value=f;
+
+ }
+function kel()
+{
+  var c=document.getElementById("c1").value;
+  var ke=parseInt(c)+parseFloat("273.15")+"K";
+  document.getElementById("result").value=ke;
+}
+</script>
+</head>
+<body style="background-color:pink; color:black; font-size:24px;">
+<h1>TEMPERATURE CONVERTOR</h1>
+<form>
+<label>Enter temperature in celsius :</label><br><br>
+   <input type="text"  id="c1" placeholder="Celsius temperature here" required>
+ <br><br>
+ 
+<input type="radio" name="select1"onclick="fahre()">Fahrenheit
+ <input type="radio" name="select1" onclick="kel()">kelvin
+ <br><br>
+<input type="text" id="result" placeholder="Result Here">
+ </FORM>
+</center>
+</body>
+</html>
